@@ -55,7 +55,7 @@ prependDriver("Hello Kitty")
 
 
 function removeLastDriver() {
-  const drivers4 = drivers
+  const drivers4 = drivers.slice
 }
 
 removeLastDriver()
